@@ -1,0 +1,13 @@
+.idea
+venv
+.env
+**__pycache__/
+.private
+*.pyc
+*.swp
+*.iml
+build
+dist
+*.egg*
+.DS_Store
+*.zip
