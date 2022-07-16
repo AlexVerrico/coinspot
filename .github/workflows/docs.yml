@@ -23,5 +23,5 @@ jobs:
       - name: "Install dependencies"
         run: pip install .[async,docs]
 
-      - name: "Build & Deploy
+      - name: "Build & Deploy"
         run: mkdocs gh-deploy --force
