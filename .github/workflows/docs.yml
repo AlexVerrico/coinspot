@@ -21,7 +21,7 @@ jobs:
           cache: ${{ !env.ACT && 'pip' || '' }}
 
       - name: "Install dependencies"
-        run: pip install .[async,docs]
+        run: pip install .[docs]
 
       - name: "Build & Deploy"
         run: mkdocs gh-deploy --force
