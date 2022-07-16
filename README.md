@@ -1,3 +1,3 @@
 # Python wrapper for the Coinspot API
 
-## Full documentation still to come
+Docs available at [https://alexverrico.github.io/coinspot/](https://alexverrico.github.io/coinspot/)
