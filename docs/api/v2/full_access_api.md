@@ -1,0 +1,1 @@
+::: src.coinspot.FullAccessAPIV2

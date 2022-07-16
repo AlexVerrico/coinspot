@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Coinspot API Wrapper in Python
+site_author: Alex Verrico
+
+repo_name: AlexVerrico/coinspot
+repo_url: https://github.com/AlexVerrico/coinspot
+edit_uri: edit/master/docs/
+
+nav:
+  - Usage: 'index.md'
+  - API:
+    - V2:
+      - General Concepts: 'api/v2/general_concepts.md'
+      - Public API: 'api/v2/public_api.md'
+      - Read Only API: 'api/v2/read_only_api.md'
+      - Full Access API: 'api/v2/full_access_api.md'
+theme:
+  name: 'material'
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.top
+    - content.tabs.link
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: "sphinx"
+          rendering:
+            members_order: source
+            show_root_heading: true
+            show_source: false
